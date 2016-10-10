@@ -33,6 +33,20 @@ nav li:hover {
   cursor: pointer;
 }
 
+a {
+  background: white;
+  border: 5px solid #3F8DA7;
+  color: #3F8DA7;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  padding: 5px 10px;
+  background: #3F8DA7;
+  color: white;
+}
+
 #hero {
   background: url('../images/park.jpg') no-repeat;
   background-size: cover;
@@ -54,16 +68,22 @@ nav li:hover {
   margin-bottom: 25px;
 }
 
-#hero a {
-  background: white;
-  border: 5px solid #3F8DA7;
-  color: #3F8DA7;
-  padding: 5px 10px;
-  text-decoration: none;
+.three-col {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
 }
 
-#hero a:hover {
-  padding: 5px 10px;
-  background: #3F8DA7;
-  color: white;
+.three-col img {
+  border-radius: 50%;
+  border: 3px solid #3F8DA7;
+  height: 200px;
+  width: 200px;
+  margin: 25px 0;
+}
+
+.three-col p {
+  margin-bottom: 40px;
 }
